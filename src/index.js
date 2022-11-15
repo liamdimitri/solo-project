@@ -3,4 +3,11 @@ const streetVendor = {
   locations: 3
 }
 
+const streetVendor2 = {
+    ...streetVendor,
+    items: 10,
+    locations: 5
+}
+
 console.log(streetVendor)
+console.log(streetVendor2)
