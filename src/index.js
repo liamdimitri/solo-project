@@ -1,13 +1,4 @@
-const streetVendor = {
-  items: 2,
-  locations: 3
-}
+import { render } from "react-dom"
+import App from "./components/App"
 
-const streetVendor2 = {
-    ...streetVendor,
-    items: 10,
-    locations: 5
-}
-
-console.log(streetVendor)
-console.log(streetVendor2)
+render(<h1>Oh hai, React</h1>, document.getElementById("root"));
