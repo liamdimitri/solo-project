@@ -27,7 +27,11 @@ module.exports = {
   plugins: [new MiniCssExtractPlugin()],
 
   resolve: {
+    fallback: {
+      "http": false,
+      "https": false,
     extensions: [".js", ".jsx"],
+    }, 
   },
 
   devtool: "source-map",

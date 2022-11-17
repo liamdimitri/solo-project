@@ -1,6 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap%27');
+
+
 body {
-    margin: 0;
-    background-color: peachpuff;
-    color: #222;
-    font-size: 70px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+}
+
+input, button {
+    border: 1px;
+    outline: 1px;
+}
+
+.App {
+    height: 21vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+
+#feedback {
+    display: none;
+}
+
+#feedback1 {
+    display: none;
 }
