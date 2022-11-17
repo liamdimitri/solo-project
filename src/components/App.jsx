@@ -7,7 +7,7 @@ const App = () => {
     
     const adminUser ={
         email:"admin@test.com",
-        password: "admin"
+        password: "1"
     }
 
     const [user, setUser] = useState({name: "", email: ""});
